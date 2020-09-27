@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="bg-blue-400">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
@@ -26,3 +26,6 @@ export default {
   margin-top: 60px;
 }
 </style>
+
+<style src="./assets/tailwind.css">
+
